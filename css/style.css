@@ -306,8 +306,8 @@ padding-top: 0;
 		top: 1.4em;
 	}
 	.jqm-header .jqm-navmenu-link {
-		left: 15%;
-		margin-left: 215px;
+		/*left: 15%;
+		margin-left: 215px;*/
 	}
 	.jqm-header .jqm-search-link {
 		display: none;
@@ -357,10 +357,12 @@ padding-top: 0;
 		position: absolute;
 		bottom: 0;
 		width: 100%;
+		text-align: center;
 	}
 	.jqm-footer p {
 		margin: 1.5em 0 1.5em 15%;
 		float: left;
+		width: 68%;
 	}
 	.jqm-footer .jqm-version {
 		margin: 1.5em 15% 1.5em 0;
@@ -1132,4 +1134,18 @@ dd {
 .back-btn {
 	float: right;
 	margin: 0 2em 1em 0;
+}
+
+
+/* Global Project Styles */
+.ui-panel-animate.ui-panel-content-wrap > .ui-header.jqm-header {
+	height: 67px;
+}
+.first_sidebar{
+	float: left;
+	width: 50%;
+}
+.second_sidebar{
+	float: left;
+	width: 50%;
 }
