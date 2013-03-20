@@ -390,8 +390,8 @@ a:hover, a:focus {
 }
 
 .row-fluid .span10 {
-	width: 82.97872340425532%;
-	*width: 82.92553191489361%;
+	width: 70%;
+	*width: 70%;
 }
 
 .row-fluid .span9 {
@@ -430,8 +430,8 @@ a:hover, a:focus {
 }
 
 .row-fluid .span2 {
-	width: 14.893617021276595%;
-	*width: 14.840425531914894%;
+	width: 30%;
+	*width: 30%;
 }
 
 .row-fluid .span1 {

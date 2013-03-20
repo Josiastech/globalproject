@@ -91,7 +91,7 @@ p {
 	background: #ffffff;
 }
 
-/*Contact Page*/
+/*********     Contact Page     **********/
 @media (max-width: 767px) {
 	body.contact .span10 {
 		width: 60% !important;
@@ -104,6 +104,10 @@ p {
 	body.contact .span10 p {
 		color: #000000;
 	}
+}
+body.contact .span10 .content{
+	background: #ffffff;
+	min-height: 675px;
 }
 body.contact .header {
 	height: 45px;
@@ -142,8 +146,17 @@ body.contact .send {
 }
 
 /*********     Craftman Page     *********/
+body.craftman .span10 .content{
+	min-height: 768px;
+}
+body.craftman .span10 {
+	background: #fff;
+}
 .carousel-control {
 	display: none;
+}
+body.craftman .span10 .content .texto{
+	padding: 0 25px;
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -178,4 +191,99 @@ body.contact .send {
 
 }
 
-/*********     ae     *********/
+/*********     AMENITIES     *********/
+body.amenities .span2 .container span{
+	color: #ffffff;
+}
+.carousel-indicators{
+	position: absolute;
+	top: 459px;
+	right: 337px;
+	z-index: 5;
+	margin: 0;
+	list-style: none;
+}
+body.amenities .span10 {
+	background: #fff;
+}
+#carousel .carousel-inner img{
+	margin: 0 auto;
+}
+body.amenities .span3 .container{
+	margin-top: 25px;
+}
+body.amenities .span10 .content{
+	min-height: 768px;
+}
+body.amenities .span10 .content span{
+	padding: 25px 10px 17px 10px;
+}
+body.amenities .span10 .content .page-header{
+	border-color: #060D34;
+}
+body.amenities .span10 .texto{
+	padding: 0 10px;
+}
+body.amenities .span3 .container .menu{
+	margin: 115px 10px;
+}
+body.amenities .span3 .container .texto_left{
+	text-align: center;
+	text-transform: uppercase;
+	margin: 100px;
+}
+.container{
+	width: 100%;
+}
+/* GENERALES */
+.ui-btn-active {
+	border: 1px solid #2373a5 ;
+	background: #5393c5 ;
+	font-weight: bold;
+	color: #fff ;
+	cursor: pointer;
+	text-shadow: 0  1px 0  #3373a5;
+	text-decoration: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #5393c5), to( #6facd5)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #5393c5 , #6facd5); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient( #5393c5 , #6facd5 ); /* FF3.6 */
+	background-image: -ms-linear-gradient( #5393c5 , #6facd5 ); /* IE10 */
+	background-image: -o-linear-gradient( #5393c5 , #6facd5 ); /* Opera 11.10+ */
+	background-image: linear-gradient( #5393c5 , #6facd5);
+	font-family: Helvetica, Arial, sans-serif ;
+}
+.ui-navbar li .ui-btn .ui-btn-inner {
+	padding-top: .7em;
+	padding-bottom: .8em;
+}
+.ui-header .ui-btn-inner, .ui-footer .ui-btn-inner, .ui-mini .ui-btn-inner {
+	font-size: 12.5px;
+	padding: .55em 11px .5em;
+}
+.ui-btn-inner {
+	font-size: 35px;
+	padding: .6em 20px;
+	min-width: .75em;
+	display: block;
+	position: relative;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	zoom: 1;
+}
+.ui-btn-inner {
+	border-top: 1px solid #fff;
+	border-color: rgba(255,255,255,.3);
+}
+.ui-btn-text {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.ui-btn-inner, .ui-btn-text {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
