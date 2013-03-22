@@ -92,6 +92,18 @@ p {
 	background: #ffffff;
 }
 
+/*********     Home Page     **********/
+<!-- iPhone 4, 4S Portrait -->
+@media only screen and (device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	/* CSS3 Rules for XX iPhone in Portrait Orientation */
+}
+
+@media screen and (max-width: 640px){
+	body.home .span2{
+		display: none;
+	}	
+}
+
 /*********     Contact Page     **********/
 @media (max-width: 767px) {
 	body.contact .span10 {
@@ -160,6 +172,21 @@ body.contact .span3 .contenido br{
 /*********     Craftman Page     *********/
 body.craftman .span10 .content{
 	min-height: 768px;
+	
+	
+}
+body.premier .span10 .content{
+	padding: 10px 20px;
+	background: #005468;
+	
+	color: #ffffff;
+}
+body.premier .span10 .content h2{
+	text-align: center;
+	font-size: 22px;
+}
+body.craftman .span10 .content h2{
+	text-align: center;
 }
 body.craftman .span10 {
 	background: #fff;

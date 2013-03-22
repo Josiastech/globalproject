@@ -269,6 +269,10 @@ width: device-width;
 		width: 23.076923076923077%;
 		*width: 23.023731587561375%;
 	}
+	body.home .row-fluid .span2{
+		width: 40.1%;
+		*width: 40.1%;
+	}
 	.row-fluid .span2 {
 		/*width: 25.52991452991453%;
 		 *width: 25.476723040552828%;*/
