@@ -389,10 +389,7 @@ a:hover, a:focus {
 	*width: 91.43617021276594%;
 }
 
-.row-fluid .span10 {
-	width: 70%;
-	*width: 70%;
-}
+
 
 .row-fluid .span9 {
 	width: 74.46808510638297%;
@@ -429,9 +426,46 @@ a:hover, a:focus {
 	 *width: 23.351063829787233%;*/
 }
 
+/* Screen Resolution ipad */
+body.home .row-fluid .span2 {
+	width: 49%;
+	*width: 49%;
+}
+body.home .row-fluid .span10 {
+	width: 51%;
+	*width: 51%;
+}
+/**/
+
+/* Paginas Internas */
+body.layout .row-fluid .span2, 
+body.premier .row-fluid .span2, 
+body.typical .row-fluid .span2, 
+body.contact .row-fluid .span2,
+body.amenities .row-fluid .span2, 
+body.craftman .row-fluid .span2 {
+	width: 31%;
+	*width: 31%;
+}
+body.layout .row-fluid .span10, 
+body.premier .row-fluid .span10, 
+body.typical .row-fluid .span10, 
+body.contact .row-fluid .span10, 
+body.amenities .row-fluid .span10, 
+body.craftman .row-fluid .span10 {
+	width: 69%;
+	*width: 69%;
+}
+/**/
+
+
 .row-fluid .span2 {
-	width: 30%;
-	*width: 30%;
+	width: 49%;
+	*width: 49%;
+}
+.row-fluid .span10 {
+	width: 51%;
+	*width: 51%;
 }
 
 .row-fluid .span1 {

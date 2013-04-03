@@ -53,7 +53,9 @@ p {
 	/*padding-left:10px;
 	 padding-right: 10px;*/
 }
-
+.span10 .content h2{
+	text-align: center;
+}
 /* Global Project Styles */
 .ui-panel-animate.ui-panel-content-wrap > .ui-header.jqm-header {
 	height: 67px;
@@ -309,6 +311,8 @@ body.amenities .span3 .container .texto_left{
 	overflow: hidden;
 	white-space: nowrap;
 	zoom: 1;
+	font-weight: normal;
+	text-align: center;
 }
 .ui-btn-inner {
 	border-top: 1px solid #fff;
@@ -371,4 +375,8 @@ body.amenities .span3 .container .texto_left{
 	background-repeat: no-repeat;
 	-webkit-border-radius: 9px;
 	border-radius: 9px;
+}
+
+body.typical .span10{
+	background: #ffffff;
 }
