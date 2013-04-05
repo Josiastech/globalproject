@@ -311,7 +311,7 @@ body.amenities .span3 .container .texto_left{
 	overflow: hidden;
 	white-space: nowrap;
 	zoom: 1;
-	font-weight: normal;
+	font-weight: bold;
 	text-align: center;
 }
 .ui-btn-inner {
@@ -378,5 +378,5 @@ body.amenities .span3 .container .texto_left{
 }
 
 body.typical .span10{
-	background: #ffffff;
+	background: #ffffff;	
 }
