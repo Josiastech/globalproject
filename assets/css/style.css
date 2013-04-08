@@ -380,3 +380,19 @@ body.amenities .span3 .container .texto_left{
 body.typical .span10{
 	background: #ffffff;	
 }
+
+
+/* iphone css*/
+@media (min-width: 320px) and (max-width: 568px){
+	body.home .row-fluid .span10{
+		width: 100% !important;
+	}
+	.menu_element{
+		float: left;
+		width: 50%;
+	}
+	body.home .row-fluid .span10 .content a{
+		/*width: 49%;
+		float: left;*/
+	}
+}
