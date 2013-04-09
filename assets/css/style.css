@@ -381,18 +381,88 @@ body.typical .span10{
 	background: #ffffff;	
 }
 
+/** ipad new styles **/ 
 
 /* iphone css*/
 @media (min-width: 320px) and (max-width: 568px){
 	body.home .row-fluid .span10{
 		width: 100% !important;
 	}
+	body .row-fluid .span2{
+		display: none;
+	}
+	body .row-fluid .span10{
+		width: 100% !important;
+	}
+	body .span10 .content{
+		padding: 0 !important;
+	}
+	body .span10 .content #carousel{
+		padding: 30px 5px 5px 5px;
+	}
+	.titulo-iphone{
+		display: block !important;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		float: left;
+		width: 100%;
+		background: #5393c5 ;
+		font-weight: bold;
+		color: #fff ;
+		cursor: pointer;
+		text-shadow: 0  1px 0  #3373a5;
+		text-decoration: none;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
+		background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */
+		background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
+		background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
+		background-image: linear-gradient( #7CA7B1 , #003A48);
+		padding: 10px 0 0 5px;
+	}
+	.titulo-iphone .h1{
+		font-size: 15px;
+	}
+	.titulo-iphone .span{
+		font-size: 13px;
+	}
 	.menu_element{
 		float: left;
 		width: 50%;
+		height: 160px;
 	}
 	body.home .row-fluid .span10 .content a{
 		/*width: 49%;
 		float: left;*/
 	}
+	/* Carrusel  craftman**/
+	.carousel-caption h4{
+		font-size: 15px;
+	}	
+	.carousel-caption, .carousel-caption h4, .carousel-caption p{
+		background: none;
+		color: #000000;
+		text-align: justify;
+		font-size: 14px;
+	}
+	body .span10 .content h2{
+		font-size: 15px;
+	}
+	body .span10 .content .texto span{
+		background: none;
+		color: #000000;
+		text-align: justify;
+		font-size: 14px;	
+	}
+	.page-header{
+		padding: 0;
+		margin: 10px 0 10px;
+	}
 }
+
+
+
+
+
+	
