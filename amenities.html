@@ -43,12 +43,13 @@
 
 				<!-- content -->
 				<div class="span10 menu_right">
-					<div class="content">
-						<div class="ui-btn-active">
+					<div class="ui-btn-active">
 							<span class="ui-btn-inner">
 								<span class="ui-btn-text">AMENITIES</span>
 							</span>
 						</div>
+					<div class="content">
+						
 						
 						<section id="carousel">
 							<div class="bs-docs-comtainer">
@@ -88,10 +89,16 @@
 		<!-- Le javascript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 		<script src="assets/js/jquery.js"></script>
 		<script src="assets/js/bootstrap-transition.js"></script>
-		<!-- // <script src="assets/js/bootstrap-alert.js"></script> -->
 		<script src="assets/js/bootstrap-carousel.js"></script>
+	    <script>
+	      !function ($) {
+	        $(function(){
+	          // carousel demo
+	          $('#myCarousel').carousel()
+	        })
+	      }(window.jQuery)
+	    </script>
 	</body>
 </html>

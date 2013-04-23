@@ -362,7 +362,7 @@ a:hover, a:focus {
 .row-fluid [class*="span"] {
 	display: block;
 	float: left;
-	width: 100%;
+	/*width: 100%;*/
 	min-height: 30px;
 	margin-left: 2.127659574468085%;
 	*margin-left: 2.074468085106383%;
@@ -388,8 +388,6 @@ a:hover, a:focus {
 	width: 91.48936170212765%;
 	*width: 91.43617021276594%;
 }
-
-
 
 .row-fluid .span9 {
 	width: 74.46808510638297%;
@@ -427,46 +425,45 @@ a:hover, a:focus {
 }
 
 /* Screen Resolution ipad */
-body.home .row-fluid .span2 {
-	width: 49%;
-	*width: 49%;
-}
-body.home .row-fluid .span10 {
-	width: 51%;
-	*width: 51%;
-}
+/*body.home .row-fluid .span2 {
+ width: 49%;
+ *width: 49%;
+ }*/
+/*body.home .row-fluid .span10 {
+ width: 51%;
+ *width: 51%;
+ }*/
 /**/
 
 /* Paginas Internas */
-body.layout .row-fluid .span2, 
-body.premier .row-fluid .span2, 
-body.typical .row-fluid .span2, 
-body.contact .row-fluid .span2,
-body.amenities .row-fluid .span2, 
-body.craftman .row-fluid .span2 {
-	width: 31%;
-	*width: 31%;
-}
-body.layout .row-fluid .span10, 
-body.premier .row-fluid .span10, 
-body.typical .row-fluid .span10, 
-body.contact .row-fluid .span10, 
-body.amenities .row-fluid .span10, 
-body.craftman .row-fluid .span10 {
-	width: 69%;
-	*width: 69%;
-}
+/*body.layout .row-fluid .span2,
+ body.premier .row-fluid .span2,
+ body.typical .row-fluid .span2,
+ body.contact .row-fluid .span2,
+ body.amenities .row-fluid .span2,
+ body.craftman .row-fluid .span2 {
+ width: 31%;
+ *width: 31%;
+ }
+ body.layout .row-fluid .span10,
+ body.premier .row-fluid .span10,
+ body.typical .row-fluid .span10,
+ body.contact .row-fluid .span10,
+ body.amenities .row-fluid .span10,
+ body.craftman .row-fluid .span10 {
+ width: 69%;
+ *width: 69%;
+ }*/
 /**/
 
-
-.row-fluid .span2 {
-	width: 49%;
-	*width: 49%;
-}
-.row-fluid .span10 {
-	width: 51%;
-	*width: 51%;
-}
+/*.row-fluid .span2 {
+ width: 49%;
+ *width: 49%;
+ }
+ .row-fluid .span10 {
+ width: 51%;
+ *width: 51%;
+ }*/
 
 .row-fluid .span1 {
 	width: 6.382978723404255%;
@@ -5441,7 +5438,7 @@ to {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	padding: 15px;
+	/*padding: 15px;*/
 	background: #333333;
 	background: rgba(0, 0, 0, 0.75);
 }

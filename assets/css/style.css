@@ -11,6 +11,10 @@ h1 {
 a {
 	color: #ffffff;
 }
+a.link {
+	color: #005580;
+	font-size: 12px;
+}
 .bs-docs-sidenav > li > a {
 	border: 0;
 }
@@ -19,7 +23,6 @@ a {
 	border: 0 1px 0 0 solid #000000;
 	width: 100%;
 }
-
 .span2 {
 
 }
@@ -39,6 +42,9 @@ p {
 	color: #ffffff;
 }
 /* Estilos */
+.link_contanct {
+
+}
 .container-fluid {
 	padding: 0;
 }
@@ -53,7 +59,7 @@ p {
 	/*padding-left:10px;
 	 padding-right: 10px;*/
 }
-.span10 .content h2{
+.span10 .content h2 {
 	text-align: center;
 }
 /* Global Project Styles */
@@ -70,21 +76,6 @@ p {
 }
 /*Index Page*/
 @media (max-width: 767px) {
-	.span2 {
-		width: 50% !important;
-		float: left;
-		padding: 0;
-		margin: 0;
-		border: 0;
-	}
-
-	.span10 {
-		width: 50% !important;
-		float: left;
-		padding: 0;
-		border: 0;
-		margin: 0;
-	}
 }
 /*Menu RIGHT*/
 .menu_right .menu {
@@ -94,50 +85,14 @@ p {
 	background: #ffffff;
 }
 
-/*********     Home Page     **********/
-<!-- iPhone 4, 4S Portrait -->
-@media only screen and (device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-	
-	/* CSS3 Rules for XX iPhone in Portrait Orientation */
-	body .carousel-control {
-		display: block;
-	}
-}
-
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .menu_element a img{
-		width: 100%;
-		height: 100%;
-	}
-	.menu_element{
-		height: 158px;
-	}
-}
-@media only screen and (min-device-width: 640px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-	
-}
-@media screen and (max-width: 640px){
-	body.home .span2{
-		display: none;
-	}	
-}
 
 /*********     Contact Page     **********/
-@media (max-width: 767px) {
-	body.contact .span10 {
-		width: 60% !important;
-		background: #ffffff;
-		height: 768px;
-	}
-	body.contact .span2 {
-		width: 40% !important;
-	}
-	body.contact .span10 p {
-		color: #000000;
-	}
+.mobile_send {
+	display: none;
 }
-body.contact .span10 .content{
+@media (max-width: 767px) {
+}
+body.contact .span10 .content {
 	background: #ffffff;
 	min-height: 768px;
 }
@@ -170,41 +125,29 @@ body.contact .content_right .image {
 body.contact .send {
 	margin-top: 10px;
 }
-body.contact .texto{
+body.contact .texto {
 	padding: 0 10px;
 }
-body.contact .span3 .contenido span{
+body.contact .span3 .contenido span {
 	margin: 0;
 	font-size: 15px;
 }
-body.contact .span3 .contenido br{
 
-}
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-}
 
 /*********     Craftman Page     *********/
-body.craftman .span10 .content{
+body.craftman .span10 .content {
 	min-height: 768px;
-	
-	
 }
-body.premier .span10 .content{
-	padding: 10px 20px;
+body.premier .span10 .content {
+	/*padding: 10px 20px;*/
 	background: #005468;
-	
 	color: #ffffff;
 }
-body.premier .span10 .content h2{
+body.premier .span10 .content h2 {
 	text-align: center;
 	font-size: 22px;
 }
-body.craftman .span10 .content h2{
+body.craftman .span10 .content h2 {
 	text-align: center;
 }
 body.craftman .span10 {
@@ -213,47 +156,13 @@ body.craftman .span10 {
 .carousel-control {
 	display: none;
 }
-body.craftman .span10 .content .texto{
-	padding: 0 25px;
-}
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-	/*body.craftman .span2 {
-		width: 35% !important;
-	}/*
-	body.craftman .span10 {
-		width: 60% !important;
-	}
-	body.craftman .span10 .content{
-		background: #ffffff;
-	}*/
 
-
-}
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	body.craftman .span2 {
-		width: 35% !important;
-	}
-	body.craftman .span10 {
-		width: 65% !important;
-	}
-	body.craftman .carousel-control {
-		display: none;
-	}
-	body.craftman .span10 .content{
-		background: #ffffff;
-		min-height: 748px;
-		padding: 0 10px;
-	}
-
-}
 
 /*********     AMENITIES     *********/
-body.amenities .span2 .container span{
+body.amenities .span2 .container span {
 	color: #ffffff;
 }
-.carousel-indicators{
+.carousel-indicators {
 	position: absolute;
 	top: 459px;
 	right: 337px;
@@ -264,43 +173,43 @@ body.amenities .span2 .container span{
 body.amenities .span10 {
 	background: #fff;
 }
-#carousel .carousel-inner img{
+#carousel .carousel-inner img {
 	margin: 0 auto;
 }
-body.amenities .span3 .container{
+body.amenities .span3 .container {
 	margin-top: 25px;
 }
-body.amenities .span10 .content{
+body.amenities .span10 .content {
 	min-height: 768px;
 }
-body.amenities .span10 .content span{
+body.amenities .span10 .content span {
 	padding: 25px 10px 17px 10px;
 }
-body.amenities .span10 .content .page-header{
+body.amenities .span10 .content .page-header {
 	border-color: #060D34;
 }
-body.amenities .span10 .texto{
+body.amenities .span10 .texto {
 	padding: 0 10px;
 }
-body.amenities .span3 .container .menu{
+body.amenities .span3 .container .menu {
 	margin: 115px 10px;
 }
-body.amenities .span3 .container .texto_left{
+body.amenities .span3 .container .texto_left {
 	text-align: center;
 	text-transform: uppercase;
 	margin: 100px;
 }
-.container{
+.container {
 	width: 100%;
 }
 /* GENERALES */
 .ui-btn-active {
 	/*border: 1px solid #2373a5 ;*/
-	background: #5393c5 ;
+	background: #5393c5;
 	font-weight: bold;
-	color: #fff ;
+	color: #fff;
 	cursor: pointer;
-	text-shadow: 0  1px 0  #3373a5;
+	text-shadow: 0 1px 0 #3373a5;
 	text-decoration: none;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
@@ -308,7 +217,7 @@ body.amenities .span3 .container .texto_left{
 	background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
 	background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
 	background-image: linear-gradient( #7CA7B1 , #003A48);
-	font-family: Helvetica, Arial, sans-serif ;
+	font-family: Helvetica, Arial, sans-serif;
 }
 .ui-navbar li .ui-btn .ui-btn-inner {
 	padding-top: .7em;
@@ -348,11 +257,11 @@ body.amenities .span3 .container .texto_left{
 	border-radius: inherit;
 	font-size: 22px;
 }
-.btn-warning ul{
+.btn-warning ul {
 	margin: 0;
 	padding: 0;
 }
-.btn-warning ul li{
+.btn-warning ul li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -363,8 +272,7 @@ body.amenities .span3 .container .texto_left{
 .icon-envelope {
 	background-position: -72px 0 !important;
 }
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
 	display: inline-block;
 	width: 14px;
 	height: 14px;
@@ -381,9 +289,9 @@ body.amenities .span3 .container .texto_left{
 	background-position: -396px -1px;
 }
 .ui-icon-shadow {
-	-moz-box-shadow: 0px 1px 0 rgba(255,255,255,.4) ;
-	-webkit-box-shadow: 0px 1px 0 rgba(255,255,255,.4) ;
-	box-shadow: 0px 1px 0 rgba(255,255,255,.4) ;
+	-moz-box-shadow: 0px 1px 0 rgba(255,255,255,.4);
+	-webkit-box-shadow: 0px 1px 0 rgba(255,255,255,.4);
+	box-shadow: 0px 1px 0 rgba(255,255,255,.4);
 }
 .ui-icon, .ui-icon-searchfield:after {
 	background-color: #666;
@@ -394,116 +302,301 @@ body.amenities .span3 .container .texto_left{
 	border-radius: 9px;
 }
 
-body.typical .span10{
-	background: #ffffff;	
+body.typical .span10 {
+	background: #ffffff;
+}
+.titulo-iphone {
+	display: block !important;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	background: #5393c5;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	text-shadow: 0 1px 0 #3373a5;
+	text-decoration: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */
+	background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
+	background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
+	background-image: linear-gradient( #7CA7B1 , #003A48);
+	padding: 10px 0 0 5px;
 }
 
-/** ipad new styles **/ 
+body.home .span10 .content {
+	padding: 0;
+}
+.span10 .content {
+	padding: 0 10px 10px;
+}
 
-/* iphone css*/
-@media (min-width: 320px) and (max-width: 568px){
-	body.home .row-fluid .span10{
-		width: 100% !important;
+/*	iPad in landscape	*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	body.home .span2 {
+		float: left;
+		width: 50%;
 	}
-	body .row-fluid .span2{
-		display: none;
-	}
-	body .row-fluid .span10{
-		width: 100% !important;
-	}
-	body .span10 .content{
-		padding: 0 !important;
-	}
-	body .span10 .content #carousel{
-		padding: 30px 5px 5px 5px;
-	}
-	.titulo-iphone{
-		display: block !important;
-		color: #ffffff;
-		font-size: 14px;
-		text-align: center;
+	body.home .span3 {
 		float: left;
 		width: 100%;
-		background: #5393c5 ;
-		font-weight: bold;
-		color: #fff ;
-		cursor: pointer;
-		text-shadow: 0  1px 0  #3373a5;
-		text-decoration: none;
-		background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
-		background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
-		background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */
-		background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
-		background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
-		background-image: linear-gradient( #7CA7B1 , #003A48);
-		padding: 10px 0 0 5px;
 	}
-	.titulo-iphone .h1{
-		font-size: 15px;
+	body.home .span10 {
+		float: left;
+		width: 50%;
 	}
-	.titulo-iphone .span{
+
+	/*Carrusel*/
+	.carousel-caption{
+		padding: 3px 5px;
+	}
+	.carousel-caption h4{
 		font-size: 13px;
 	}
-	.menu_element{
+	.carousel-caption p{
+		font-size: 11px;
+		line-height: 17px;
+	}
+
+	/*Contenido*/
+	.content .headings{
+		font-size: 25px;
+	}
+	.content .texto{
+
+	}
+	.content .texto span{
+		font-size: 16px;
+	}
+
+
+	.span2 {
+		float: left;
+		width: 31.5%;
+	}
+	.span3 {
+		float: left;
+		width: 100%;
+	}
+	.span10 {
+		float: left;
+		width: 68.5%;
+	}
+	.menu_element {
+		float: left;
+		height: 228px;
+		width: 50%;
+	}
+	.menu_element a img {
+		height: 100%;
+		width: 100%;
+	}
+	.titulo-iphone{
+		width: 100%;
+		text-align: center;
+	}
+	.titulo-iphone span{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+/*	 iPad Portrait	*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	/*HOME*/
+	.span2 {
+		float: left;
+		width: 40%;
+	}
+	.span3 {
+		float: left;
+		width: 100%;
+	}
+	.span10 {
+		float: left;
+		width: 60%;
+	}
+	.menu_element {
+		float: left;
+		height: 228px;
+		width: 50%;
+	}
+
+	/*Carrusel*/
+	.carousel-indicators{
+		top: 236px;
+		right: 17px;
+	}
+	.carousel-caption{
+		padding: 3px 5px;
+	}
+	.carousel-caption h4{
+		font-size: 13px;
+	}
+	.carousel-caption p{
+		font-size: 11px;
+		line-height: 17px;
+	}
+
+	/*Contenido*/
+	.content .headings{
+		font-size: 25px;
+	}
+	.content .texto{
+
+	}
+	.content .texto span{
+		font-size: 16px;
+	}
+}
+
+/*	iPhone 5 in landscape	*/
+@media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+	.row-fluid .span2 {
+		display: none;
+	}
+	.row-fluid .span10 {
+		width: 100%;
+	}
+	.span2 {
+		display: none;
+	}
+	.span10 {
+		width: 100%;
+		float: left;
+		padding: 0;
+		border: 0;
+		margin: 0;
+	}
+	.menu_element a img {
+		width: 100%;
+		height: 100%;
+	}
+	.menu_element {
+		height: 200px;
+		float: left;
+		width: 50%;
+	}
+
+	/*CRAFTMAN*/
+
+	.carousel-control {
+		display: none;
+	}
+	body.craftman .span10 .content {
+		background: #ffffff;
+		min-height: 748px;
+	}
+	.carousel-caption {
+		padding: 3px 5px;
+	}
+	.carousel-caption h4 {
+		font-size: 12px;
+	}
+	.carousel-caption p {
+		line-height: 17px;
+		font-size: 10.5px;
+	}
+
+	/* CONTACT PAGE*/
+	.mobile_send {
+		text-align: center;
+	}
+	.btn {
+		padding: 4px 20px !important;
+	}
+	body.contact .span10 {
+		background: #ffffff;
+		height: 768px;
+	}
+	body.contact .span10 p {
+		color: #000000;
+	}
+}
+
+/*	iPhone 5 in portrait	*/
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+	.carousel-caption h4 {
+		text-align: center;
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 15px;
+		margin: 0;
+	}
+	.menu_element {
+		height: 157px !important;
+	}
+	.texto {
+	}
+	body.home .span10  .content {
+		padding: 0;
+	}
+	.span10  .content {
+		padding: 0 10px;
+	}
+	body.home .row-fluid .span10 {
+		width: 100% !important;
+	}
+	body .row-fluid .span2 {
+		display: none;
+	}
+	body .row-fluid .span10 {
+		width: 100% !important;
+	}
+	body .span10 .content {
+		
+	}
+	body .span10 .content #carousel {
+		padding: 30px 5px 5px 5px;
+	}
+	.titulo-iphone .h1 {
+		font-size: 15px;
+	}
+	.titulo-iphone .span {
+		font-size: 13px;
+	}
+	.menu_element {
 		float: left;
 		width: 50%;
 		height: 215px;
 	}
-	body.home .row-fluid .span10 .content a{
-		/*width: 49%;
-		float: left;*/
+	body.home .row-fluid .span10 .content a {
 	}
 	/* Carrusel  craftman**/
-	.carousel-caption h4{
+	.carousel-caption h4 {
 		font-size: 15px;
-	}	
-	.carousel-caption, .carousel-caption h4, .carousel-caption p{
+	}
+	.carousel-caption, .carousel-caption h4, .carousel-caption p {
 		background: none;
 		color: #000000;
 		text-align: justify;
 		font-size: 14px;
 	}
-	body .span10 .content h2{
-		font-size: 15px;
-	}
-	body .span10 .content .texto span{
+	body .span10 .content .texto span {
 		background: none;
 		color: #000000;
 		text-align: justify;
-		font-size: 14px;	
+		font-size: 14px;
 	}
-	.page-header{
+	.page-header {
 		padding: 0;
 		margin: 10px 0 10px;
 	}
-}
-
-
-
-
-
-/*iPad in landscape*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
- /* STYLES GO HERE */
-}
-
-/*iPad in portrait*/
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
-
-	 /* STYLES GO HERE */ 
-}
-
-/*iPhone 5 in landscape*/
-@media only screen and (min-width : 480px) and (max-width : 767px) and (orientation : landscape) {
-
-}
-
-/*iPhone 5 in portrait*/
-@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : portrait) {
-	.menu_element{
-		height: 157px !important;
-	}
- 	/* STYLES GO HERE */ 
-}
-
 	
+	/*Contact page*/
+	.mobile_send {
+		display: block;
+		text-align: center;
+	}
+	.btn {
+		padding: 4px 20px !important;
+	}
+	.btn-warning ul li {
+
+	}
+}
+
