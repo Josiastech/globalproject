@@ -56,8 +56,7 @@ p {
 	text-align: center;
 }
 .span10 .content {
-	/*padding-left:10px;
-	 padding-right: 10px;*/
+	
 }
 .span10 .content h2 {
 	text-align: center;
@@ -204,7 +203,6 @@ body.amenities .span3 .container .texto_left {
 }
 /* GENERALES */
 .ui-btn-active {
-	/*border: 1px solid #2373a5 ;*/
 	background: #5393c5;
 	font-weight: bold;
 	color: #fff;
@@ -414,6 +412,9 @@ body.home .span10 .content {
 	.span3 {
 		float: left;
 		width: 100%;
+	}
+	.row-fluid .span3{
+		width: 97%;
 	}
 	.span10 {
 		float: left;
