@@ -138,9 +138,9 @@ body.craftman .span10 .content {
 	min-height: 768px;
 }
 body.premier .span10 .content {
-	/*padding: 10px 20px;*/
-	background: #005468;
-	color: #ffffff;
+	background: #ffffff;
+	color: #005468;
+	font-size: 12px;
 }
 body.premier .span10 .content h2 {
 	text-align: center;
@@ -322,7 +322,7 @@ body.typical .span10 {
 	background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
 	background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
 	background-image: linear-gradient( #7CA7B1 , #003A48);
-	padding: 10px 0 0 5px;
+	padding: 10px 0 0 0;
 }
 
 body.home .span10 .content {
@@ -331,9 +331,15 @@ body.home .span10 .content {
 .span10 .content {
 	padding: 0 10px 10px;
 }
+.carousel-caption{
+	display: none;
+}
 
 /*	iPad in landscape	*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.container-fluid{
+		min-height: 770px;
+	}
 	body.home .span2 {
 		float: left;
 		width: 50%;
@@ -362,6 +368,7 @@ body.home .span10 .content {
 	/*Contenido*/
 	.content .headings{
 		font-size: 25px;
+		margin: 0;	
 	}
 	.content .texto{
 
@@ -379,9 +386,17 @@ body.home .span10 .content {
 		float: left;
 		width: 100%;
 	}
+	body.home .span10{
+		background: none;
+	}
 	.span10 {
 		float: left;
 		width: 68.5%;
+		min-height: 770px;
+		background: #ffffff;
+	}
+	.span10 p{
+		color:#005468;	
 	}
 	.menu_element {
 		float: left;
@@ -414,16 +429,25 @@ body.home .span10 .content {
 		width: 100%;
 	}
 	.row-fluid .span3{
-		width: 97%;
+		width: 101%;
 	}
 	.span10 {
 		float: left;
 		width: 60%;
+		min-height: 1024px;
+	}
+	.span10 .content{
+		min-height: 1024px !important;	
 	}
 	.menu_element {
 		float: left;
 		height: 228px;
 		width: 50%;
+	}
+	.titulo-iphone span{
+		width: 100%;
+		margin: 0 !important;
+		text-align: center;
 	}
 
 	/*Carrusel*/
@@ -445,6 +469,7 @@ body.home .span10 .content {
 	/*Contenido*/
 	.content .headings{
 		font-size: 25px;
+		margin: 0;
 	}
 	.content .texto{
 
@@ -481,6 +506,11 @@ body.home .span10 .content {
 		float: left;
 		width: 50%;
 	}
+	.titulo-iphone span.span{
+		width: 100%;
+		text-align: center;
+		margin:0;
+	}
 
 	/*CRAFTMAN*/
 
@@ -505,6 +535,7 @@ body.home .span10 .content {
 	/* CONTACT PAGE*/
 	.mobile_send {
 		text-align: center;
+		display: block;
 	}
 	.btn {
 		padding: 4px 20px !important;
@@ -520,6 +551,11 @@ body.home .span10 .content {
 
 /*	iPhone 5 in portrait	*/
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+
+	.container-fluid{
+		min-height: 569px;
+		background: #ffffff;
+	}
 	.carousel-caption h4 {
 		text-align: center;
 		font-size: 15px;
@@ -559,6 +595,9 @@ body.home .span10 .content {
 	}
 	.titulo-iphone .span {
 		font-size: 13px;
+		width: 100%;
+		margin: 0;
+		text-align: center;
 	}
 	.menu_element {
 		float: left;
