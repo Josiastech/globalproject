@@ -35,10 +35,17 @@ a.link {
 	border-color: #000000;
 	border-style: solid;
 	border-width: 0 1px 0 0;
-	padding-bottom: 30px;
+	/*padding-bottom: 30px;*/
 }
 
 p {
+	color: #ffffff;
+}
+ul{
+
+}
+li{
+	list-style: none;
 	color: #ffffff;
 }
 /* Estilos */
@@ -89,13 +96,25 @@ p {
 .mobile_send {
 	display: none;
 }
-@media (max-width: 767px) {
+
+body.contact .span2 button {
+	width: 150px;
+	margin: 5px 0;
+	height: 30px;
+	padding: 4px 20px;
 }
-body.contact .span10 .content {
+body.contact .span2 .container{
+	text-align: center;
+}
+body.contact .span2 span{
+	color: #ffffff;
+	text-align: center;
+}
+/*body.contact .span10 .content {
 	background: #ffffff;
 	min-height: 768px;
-}
-body.contact .header {
+}*/
+/*body.contact .header {
 	height: 45px;
 }
 body.contact .header p {
@@ -107,12 +126,7 @@ body.contact .span2 {
 body.contact .span2 .span3 .contenido {
 	margin-top: 250px;
 }
-body.contact .span2 button {
-	width: 150px;
-	margin: 5px 0;
-	height: 30px;
-	padding: 4px 20px;
-}
+
 body.contact .span2 span {
 	text-align: center;
 	color: #ffffff;
@@ -131,10 +145,10 @@ body.contact .span3 .contenido span {
 	margin: 0;
 	font-size: 15px;
 }
-
+*/
 
 /*********     Craftman Page     *********/
-body.craftman .span10 .content {
+/*body.craftman .span10 .content {
 	min-height: 768px;
 }
 body.premier .span10 .content {
@@ -154,15 +168,15 @@ body.craftman .span10 {
 }
 .carousel-control {
 	display: none;
-}
+}*/
 
 
 /*********     AMENITIES     *********/
-body.amenities .span2 .container span {
+/*body.amenities .span2 .container span {
 	color: #ffffff;
 }
 .carousel-indicators {
-	position: absolute;
+	position: absolute;	
 	top: 459px;
 	right: 337px;
 	z-index: 5;
@@ -197,7 +211,7 @@ body.amenities .span3 .container .texto_left {
 	text-align: center;
 	text-transform: uppercase;
 	margin: 100px;
-}
+}*/
 .container {
 	width: 100%;
 }
@@ -254,6 +268,7 @@ body.amenities .span3 .container .texto_left {
 	-webkit-border-radius: inherit;
 	border-radius: inherit;
 	font-size: 22px;
+	font-weight: 400;
 }
 .btn-warning ul {
 	margin: 0;
@@ -301,7 +316,7 @@ body.amenities .span3 .container .texto_left {
 }
 
 body.typical .span10 {
-	background: #ffffff;
+	background: #b0acab;
 }
 .titulo-iphone {
 	display: block !important;
@@ -330,6 +345,14 @@ body.home .span10 .content {
 }
 .span10 .content {
 	padding: 0 10px 10px;
+	/*padding: 10px 10px;
+	min-height: 700px;
+	background: #17375e;
+	color: #ffffff;*/
+}
+.span10 .content h2{
+	text-align: left;
+	margin: 0;
 }
 .carousel-caption{
 	display: none;
@@ -338,21 +361,85 @@ body.home .span10 .content {
 /*	iPad in landscape	*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 	.container-fluid{
-		min-height: 770px;
+		max-height: 768px;
 	}
 	body.home .span2 {
 		float: left;
 		width: 50%;
+		max-height: 768px;
 	}
 	body.home .span3 {
 		float: left;
 		width: 100%;
+		height: 100%;
 	}
 	body.home .span10 {
 		float: left;
 		width: 50%;
+		max-height: 768px;
+		padding: 0;
+	}
+	body.home .span10 .content{
+		margin: 0;
+	}
+	body.home .span2 .span3 .container a img{
+		width: 100%;
+		height: 100%;
+	}
+	.span3 .container .menu{
+		float: left;
+		width: 100%;
+		height: 154px;
+		text-align: right;
+	}
+	.last-menu{
+		height: 107px !important;
+	}
+	.span3 .container .menu a{
+		text-align: right;
+		padding-right: 15px;
+	}
+	.span3 .container .menu a:hover, .span3 .container .menu a:active{
+		text-decoration: underline;
+		color: #ffffff;
+	}
+	.size_width{
+		border: 1px solid #0d0d0d;
+		padding: 3px 0;
+		bottom: -67px;
+		position: relative;
+	}
+	.span10 .content {
+		padding: 10px 10px;
+		min-height: 683px;
+		background: #17375e;
+		color: #ffffff;
+		margin: 10px;
+	}
+	.logo-content{
+		text-align: right;
+		bottom: -20px;
+		position: relative;
+	}
+	/*Exclusividad*/
+	body.exclusividad .span10 .content{
+		background-color: transparent;
+	}
+	body.exclusividad .span10 .content .texto{
+		text-align: center;
+	}
+	body.exclusividad .span3 .container .menu{
+		height: 205px;
 	}
 
+	/*Apartamentos*/
+	body.apartamentos .span10 .content{
+		background-color: transparent;
+	}
+	body.apartamentos .span3 .container .menu{
+		height: 102.8px;
+	}
+	
 	/*Carrusel*/
 	.carousel-caption{
 		padding: 3px 5px;
@@ -381,10 +468,16 @@ body.home .span10 .content {
 	.span2 {
 		float: left;
 		width: 31.5%;
+		min-height: 768px;
+		background: #4a452a;
 	}
 	.span3 {
 		float: left;
 		width: 100%;
+	}
+	.span3 .container ul li{
+		float: left;
+		height: 256px;
 	}
 	body.home .span10{
 		background: none;
@@ -392,7 +485,7 @@ body.home .span10 .content {
 	.span10 {
 		float: left;
 		width: 68.5%;
-		min-height: 770px;
+		min-height: 768px;
 		background: #ffffff;
 	}
 	.span10 p{
@@ -400,7 +493,7 @@ body.home .span10 .content {
 	}
 	.menu_element {
 		float: left;
-		height: 228px;
+		height: 256px;
 		width: 50%;
 	}
 	.menu_element a img {
@@ -415,18 +508,128 @@ body.home .span10 .content {
 		width: 100%;
 		margin: 0;
 	}
+
+
+	/* AMENITIES */
+	body.amenities .content{
+		background: none;
+	}
+	body.amenities .content .texto{
+		text-align: center;
+		background: url("./../../img/amenities-ipad.jpg") no-repeat scroll 0 0 transparent;
+		height: 675px;
+	}
+
+	/*MAP*/
+	body.map .content{
+		background: none;
+	}
+	body.map .content .texto{
+		text-align: center;
+		background: url("./../../img/map-ipad-landscape.jpg") no-repeat scroll 0 0 transparent;
+		height: 675px;
+	}
+	body.map .span3 .container .menu{
+		margin-top: 93px;
+	}
+	body.map .span3 .container .last-menu{
+		margin-top: 122px;
+	}
+
+	/*CONTACT PAGE*/
+	body.contact .span3 .container .menu{
+		height: 136px;
+	}
+	body.contact .texto{
+		width: 34%;
+		margin-left: 216px;
+		margin-top: 150px;
+		text-align: center;
+	}
+	body.contact form .value{
+		width: 100%;
+		float: left;
+	}
+	body.contact form .value label{
+		text-align: left;
+	}
+
+
 }
 
 /*	 iPad Portrait	*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 	/*HOME*/
+
+	body.home .imagen-ipad-portrait img{
+		height: 1024px;
+		/*background: url("./../../img/home-ipad-portrait.jpg") no-repeat scroll 0 0 transparent;*/
+		/*height: 1024px;*/
+	}
+	body.home .imagen_ipad{
+		display: none;
+	}
+	body.home .menu_element{
+		height: 341px;
+	}
+	.menu_element a img{
+		height: 341px;
+	}
 	.span2 {
 		float: left;
 		width: 40%;
+		min-height: 1024px;
+		background: #4a452a;
 	}
-	.span3 {
+	/*MENUS*/
+	.span3 .container .menu{
 		float: left;
 		width: 100%;
+		height: 154px;
+		text-align: right;
+	}
+	
+	body.exclusividad .span3 .container .menu{
+		height: 292px;
+	}
+	body.exclusividad .span3 .container .last-menu{
+		height: 101px;
+	}
+	body.typical .span3 .container .menu{
+		height: 219px;
+	}
+	body.typical .span3 .container .last-menu{
+		height: 101px;
+	}
+	body.apartamentos .span3 .container .menu{
+		height: 146px;
+	}
+	body.apartamentos .span3 .container .last-menu{
+		height: 101px;
+	}
+	body.amenities .span3 .container .menu{
+		height: 219px;
+	}
+	body.amenities .span3 .container .last-menu{
+		height: 101px;
+	}
+	body.contact .span3 .container .menu{
+		height: 267px;
+	}
+	body.contact .span3 .container .last-menu{
+		height: 101px;
+	}
+
+	
+	.size_width{
+		border: 1px solid #0d0d0d;
+		padding: 3px 0;
+		bottom: -67px;
+		position: relative;
+	}
+	.span3 .container .menu a {
+		text-align: right;
+		padding-right: 15px;
 	}
 	.row-fluid .span3{
 		width: 101%;
@@ -436,8 +639,16 @@ body.home .span10 .content {
 		width: 60%;
 		min-height: 1024px;
 	}
+	body.home .span10 .content{
+		margin: 0;
+		padding: 0;
+	}
 	.span10 .content{
-		min-height: 1024px !important;	
+		min-height: 937px;
+		padding: 10px 10px;
+		margin: 10px;
+		background: #17375e;
+		color: #ffffff;
 	}
 	.menu_element {
 		float: left;
@@ -449,6 +660,7 @@ body.home .span10 .content {
 		margin: 0 !important;
 		text-align: center;
 	}
+
 
 	/*Carrusel*/
 	.carousel-indicators{
@@ -464,6 +676,35 @@ body.home .span10 .content {
 	.carousel-caption p{
 		font-size: 11px;
 		line-height: 17px;
+	}
+
+	/* AMENITIES */
+	body.amenities .content{
+		background: none;
+	}
+	body.amenities .content .texto{
+		text-align: center;	
+		background: url("./../../img/amenities-ipad-portrait.jpg") no-repeat scroll 0 0 transparent;
+		height: 467px;
+		margin-top: 237px;
+		width: 434px;
+	}
+	/*MAP PAGE*/
+	body.map .content{
+		background: none;
+	}
+	body.map .content .texto{
+		text-align: center;
+		background: url("./../../img/map-ipad-portrait.jpg") no-repeat scroll 0 0 transparent;
+		height: 467px;
+		margin-top: 237px;
+		width: 434px;
+	}
+	body.map .span3 .container .menu{
+		margin-top: 93px;
+	}
+	body.map .span3 .container .last-menu{
+		margin-top: 122px;
 	}
 
 	/*Contenido*/

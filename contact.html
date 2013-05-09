@@ -2,14 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Global Project</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>ACO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 	<body class="contact">
@@ -23,8 +23,7 @@
 								<span class="ui-btn-text">Contact</span>
 							</span>
 						</div>
-						
-						<div class="contenido">
+						<div class="container">
 							<span>
 								<br>
 								(632) 908 3908 (Manila Office)</br>
@@ -50,39 +49,62 @@
 									</button>
 								</div> 
 							</span>
-						</div>
+							<div class="menu">
+								<div class="size_width">
+									<a href="#">Lounge - Bar</a>
+								</div>
+							</div>
+							<div class="menu">
+								<div class="size_width">
+									<a href="#">P&eacute;rgola</a>
+								</div>
+							</div>
+							<div class="menu last-menu">
+								<img src="img/logo.png">
+							</div>
+							<div class="menu last-menu">
+								<img src="img/zolaria.jpg">
+							</div>
 
+						</div>
 					</div>
-				</div>
-				<!-- content -->
-				<div class="span10 content_right">
+						
+					</div>
+					<div class="span10 menu_right">
 					<div class="ui-btn-active">
 						<span class="ui-btn-inner">
-							<span class="ui-btn-text">lorem ipsum</span>
+							<span class="ui-btn-text">Lounge Bar</span>
 						</span>
 					</div>
+					
 					<div class="content">
-						<div class="image">
-							<img src="img/contact.jpg">
-						</div>
-						<div class="page-header"></div>
 						<div class="texto">
-							<span>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</span>	
-						</div>
-						<div class="send mobile_send">
-							<button type="button" class="btn btn-warning">
-								<ul>
-									<li>
-										<i class="icon-envelope"></i>
-									</li>
-								</ul>
-								<a href="mailto:frank@wwdcdemo.example.com">Send Email</a>
-							</button>
+							<form name="contact">
+								<div class="value">
+									<label>Nombre</label>
+									<input type="text" name="nombre">
+								</div>
+								<div class="value">
+									<label>Telefono</label>
+									<input type="text" name="telefono">
+								</div>
+								<div class="value">
+									<label>Email</label>
+									<input type="text" name="mail">
+								</div>
+								<div class="value">
+									<label>Mensaje</label>
+									<textarea></textarea>
+								</div>
+								<div class="value">
+									<input type="submit" name="submit" value="submit">
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
+				</div>
+				<!-- content -->				
 			</div>
 		</div>
 	</body>
