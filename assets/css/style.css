@@ -790,6 +790,8 @@ body.home .span10 .content {
 	}
 }
 
+
+
 /*	iPhone 5 in portrait	*/
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
 
@@ -806,12 +808,16 @@ body.home .span10 .content {
 		margin: 0;
 	}
 	.menu_element {
-		height: 157px !important;
+		height: 190px !important;
+	}
+	.menu_element img{
+		height: 100%;
 	}
 	.texto {
 	}
 	body.home .span10  .content {
 		padding: 0;
+		min-height: 569px;
 	}
 	.span10  .content {
 		padding: 0 10px;
@@ -826,7 +832,11 @@ body.home .span10 .content {
 		width: 100% !important;
 	}
 	body .span10 .content {
-		
+		float: left;
+		background: #17375e;
+		color: #ffffff;
+		width: 100%;
+		min-height: 522px
 	}
 	body .span10 .content #carousel {
 		padding: 30px 5px 5px 5px;
@@ -859,7 +869,6 @@ body.home .span10 .content {
 	}
 	body .span10 .content .texto span {
 		background: none;
-		color: #000000;
 		text-align: justify;
 		font-size: 14px;
 	}
@@ -867,6 +876,27 @@ body.home .span10 .content {
 		padding: 0;
 		margin: 10px 0 10px;
 	}
+
+	/*MAP PAGE*/
+	body.map .content .texto{
+		/*text-align: center;*/
+		background: url("./../../img/map-iphone-portrait.jpg") no-repeat scroll 0 0 transparent;
+		/*height: 467px;*/
+		/*margin-top: 237px;*/
+		margin-top: 25px;
+		height: 283px;
+		width: 280px;
+		margin-left: 10px;
+	}
+
+	body.amenities .content .texto{
+		background: url("./../../img/amenities-iphone-portrait.jpg") no-repeat scroll 0 0 transparent;
+		margin-top: 25px;
+		height: 283px;
+		width: 280px;
+		margin-left: 10px;
+	}
+
 	
 	/*Contact page*/
 	.mobile_send {
@@ -878,6 +908,10 @@ body.home .span10 .content {
 	}
 	.btn-warning ul li {
 
+	}
+
+	body.contact .texto form{
+		padding-left: 35px;
 	}
 }
 
