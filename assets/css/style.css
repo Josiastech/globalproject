@@ -26,6 +26,31 @@ a.link {
 .span2 {
 
 }
+.menu_element .link{
+		float: left;
+		text-align: center;
+		background: #5393c5;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48));
+		background-image: -webkit-linear-gradient( #7CA7B1 , #003A48);
+		background-image: -moz-linear-gradient( #7CA7B1 , #003A48 );
+		background-image: -ms-linear-gradient( #7CA7B1 , #003A48 );
+		background-image: -o-linear-gradient( #7CA7B1 , #003A48 );
+		background-image: linear-gradient( #7CA7B1 , #003A48);
+		width: 100%;
+}
+.menu_element .imagen{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.menu_element .imagen img{
+	width: 100%;
+	height: 100%;	
+}
+.menu_element .link a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
 @media (min-width: 1200px) {
 	.row-fluid .span3 {
 		width: 100%;
@@ -257,6 +282,12 @@ body.home .span10 .content {
 	.container-fluid{
 		max-height: 768px;
 	}
+	.menu_element .imagen{
+		height: 238px;
+	}
+	.menu_element .link a{
+		font-size: 14px;
+	}
 	body.home .span2 {
 		float: left;
 		width: 50%;
@@ -394,7 +425,7 @@ body.home .span10 .content {
 		height: 100%;
 		width: 100%;
 	}
-	.titulo-iphone{
+	.titulo-{
 		width: 100%;
 		text-align: center;
 	}
@@ -478,6 +509,18 @@ body.home .span10 .content {
 	}
 	.menu_element a img{
 		height: 341px;
+	}
+	.menu_element .imagen{
+		float: left;	
+		width: 100%;
+		height: 322px;
+	}
+	.menu_element .imagen img{
+		width: 100%;
+		height: 100%;
+	}
+	.menu_element .link{
+
 	}
 	.span2 {
 		float: left;
@@ -658,6 +701,17 @@ body.home .span10 .content {
 		float: left;
 		width: 50%;
 	}
+	.menu_element .imagen{
+		height: 180px;
+		width: 100%;
+		float: left;
+	}
+	.menu_element .imagen img{
+
+	}
+	.menu_element .link	{
+		
+	}
 	.titulo-iphone span.span{
 		width: 100%;
 		text-align: center;
@@ -740,10 +794,24 @@ body.home .span10 .content {
 		height: 100%;
 	}
 	.menu_element .link{
-		float: left;
-		width: 100%;
+		/*float: left;
+		text-align: center;
+		background: #5393c5;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48));
+		background-image: -webkit-linear-gradient( #7CA7B1 , #003A48);
+		background-image: -moz-linear-gradient( #7CA7B1 , #003A48 );
+		background-image: -ms-linear-gradient( #7CA7B1 , #003A48 );
+		background-image: -o-linear-gradient( #7CA7B1 , #003A48 );
+		background-image: linear-gradient( #7CA7B1 , #003A48);
+		width: 100%;*/
 	}
-	
+	.menu_element .link a{
+		font-size: 14px;
+	}
+	.menu_element .link a:hover{
+		text-decoration: none;
+		color: #ffffff;
+	}
 	.texto {
 	}
 	body.home .span10  .content {
@@ -761,6 +829,9 @@ body.home .span10 .content {
 	}
 	body .row-fluid .span10 {
 		width: 100% !important;
+	}
+	body.home .span10 .content{
+		width: 100%;
 	}
 	body .span10 .content {
 		float: left;
