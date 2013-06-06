@@ -1,5 +1,5 @@
 body {
-	background-color: #005468;
+	background-color: #53504a;
 	margin: 0;
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	padding: 0;
@@ -29,13 +29,14 @@ a.link {
 .menu_element .link{
 		float: left;
 		text-align: center;
-		background: #5393c5;
-		background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48));
+		background: #53504a;
+		border-top: 2px solid #e48943;
+		/*background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48));
 		background-image: -webkit-linear-gradient( #7CA7B1 , #003A48);
 		background-image: -moz-linear-gradient( #7CA7B1 , #003A48 );
 		background-image: -ms-linear-gradient( #7CA7B1 , #003A48 );
 		background-image: -o-linear-gradient( #7CA7B1 , #003A48 );
-		background-image: linear-gradient( #7CA7B1 , #003A48);
+		background-image: linear-gradient( #7CA7B1 , #003A48);*/
 		width: 100%;
 }
 .menu_element .imagen{
@@ -137,19 +138,26 @@ body.contact .span2 span{
 }
 /* GENERALES */
 .ui-btn-active {
-	background: #5393c5;
+	background: #53504a;
 	font-weight: bold;
+	font-size: 14px;
 	color: #fff;
 	cursor: pointer;
 	text-shadow: 0 1px 0 #3373a5;
+	border-top: #e48943 2px solid;
+	border-bottom: #ffffff 1px solid;
+	border: 1px 0px solid;
 	text-decoration: none;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
-	background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */
-	background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
-	background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
-	background-image: linear-gradient( #7CA7B1 , #003A48);
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
+	/*background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */*/
+	/*background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */*/
+	/*background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */*/
+	/*background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */*/
+	/*background-image: linear-gradient( #7CA7B1 , #003A48);*/*/
 	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-btn-active span.ui-btn-inner{
+	padding: 0.5em;
 }
 .ui-navbar li .ui-btn .ui-btn-inner {
 	padding-top: .7em;
@@ -187,7 +195,7 @@ body.contact .span2 span{
 .ui-btn-inner, .ui-btn-text {
 	-webkit-border-radius: inherit;
 	border-radius: inherit;
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: 400;
 }
 .btn-warning ul {
@@ -269,13 +277,15 @@ body.home .span10 .content {
 .span10 .content h2{
 	text-align: left;
 	margin: 0;
+	font-weight: normal;	
 }
 .carousel-caption{
 	display: none;
 }
 
 /*	iPad in landscape	*/
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width : 766px) and (max-device-width : 1700px)  and(orientation : landscape) { 
+/*@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {*/
 	.imagen-ipad-portrait{
 		display: none;
 	}
@@ -283,7 +293,7 @@ body.home .span10 .content {
 		max-height: 768px;
 	}
 	.menu_element .imagen{
-		height: 238px;
+		height: 232px;
 	}
 	.menu_element .link a{
 		font-size: 14px;
@@ -300,7 +310,7 @@ body.home .span10 .content {
 	}
 	body.home .span10 {
 		float: left;
-		width: 50%;
+		/*width: 50%;*/
 		max-height: 768px;
 		padding: 0;
 	}
@@ -329,21 +339,22 @@ body.home .span10 .content {
 		color: #ffffff;
 	}
 	.size_width{
-		border: 1px solid #0d0d0d;
+		border-top: 2px solid #e48943;
 		padding: 3px 0;
 		bottom: -67px;
+		background: #53504a;
 		position: relative;
 	}
 	.span10 .content {
 		padding: 10px 10px;
 		min-height: 683px;
-		background: #17375e;
+		/*background: #17375e;*/
 		color: #ffffff;
 		margin: 10px;
 	}
 	.logo-content{
 		text-align: right;
-		bottom: -20px;
+		/*bottom: -20px;*/
 		position: relative;
 	}
 	/*Exclusividad*/
@@ -394,7 +405,7 @@ body.home .span10 .content {
 		float: left;
 		width: 31.5%;
 		min-height: 768px;
-		background: #4a452a;
+		background: #b1aba6;
 	}
 	.span3 {
 		float: left;
@@ -409,9 +420,10 @@ body.home .span10 .content {
 	}
 	.span10 {
 		float: left;
-		width: 68.5%;
+		/*width: 68.5%;*/
+		width: 568px;
 		min-height: 768px;
-		background: #ffffff;
+		/*background: #ffffff;*/
 	}
 	.span10 p{
 		color:#005468;	
@@ -507,31 +519,33 @@ body.home .span10 .content {
 	body.home .menu_element{
 		height: 341px;
 	}
+
 	.menu_element a img{
 		height: 341px;
 	}
 	.menu_element .imagen{
 		float: left;	
 		width: 100%;
-		height: 322px;
+		height: 319px;
 	}
 	.menu_element .imagen img{
 		width: 100%;
 		height: 100%;
 	}
-	.menu_element .link{
-
+	.menu_element .link{	
+		font-size: 18px;
 	}
 	.span2 {
 		float: left;
 		width: 40%;
 		min-height: 1024px;
-		background: #4a452a;
+		background: #b1aba6;
 	}
+
 	/*MENUS*/
 	.span3 .container .menu{
 		float: left;
-		width: 100%;
+		width: 99%;
 		height: 154px;
 		text-align: right;
 	}
@@ -567,11 +581,11 @@ body.home .span10 .content {
 		height: 101px;
 	}
 
-	
 	.size_width{
-		border: 1px solid #0d0d0d;
+		border-top: 3px solid #e48943;
 		padding: 3px 0;
 		bottom: -67px;
+		background: #53504a;
 		position: relative;
 	}
 	.span3 .container .menu a {
@@ -594,7 +608,7 @@ body.home .span10 .content {
 		min-height: 937px;
 		padding: 10px 10px;
 		margin: 10px;
-		background: #17375e;
+		/*background: #17375e;*/
 		color: #ffffff;
 	}
 	.menu_element {
@@ -676,6 +690,26 @@ body.home .span10 .content {
 
 /*	iPhone 5 in landscape	*/
 @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+	h2{
+		font-size: 15px
+	}
+	body.home .container-fluid{
+		height: 606px;
+	}
+	body.home .span10{
+		height: 568px;
+	}
+	body .span10 .content .texto span {
+		background: none;
+		text-align: justify;
+		font-size: 14px;
+	}
+	body .span10 .content{
+		/*width: 100%;*/
+		float: left;
+		background: #53504a;
+		color: #ffffff;
+	}
 	.row-fluid .span2 {
 		display: none;
 	}
@@ -702,7 +736,7 @@ body.home .span10 .content {
 		width: 50%;
 	}
 	.menu_element .imagen{
-		height: 180px;
+		height: 178px;
 		width: 100%;
 		float: left;
 	}
@@ -716,6 +750,14 @@ body.home .span10 .content {
 		width: 100%;
 		text-align: center;
 		margin:0;
+	}
+	/*Amenities*/
+	body.amenities .content .texto {
+		background: url("./../../img/amenities-iphone-portrait.jpg") no-repeat scroll 0 0 transparent;
+		margin-top: 25px;
+		height: 283px;
+		width: 280px;
+		margin: 0 auto;
 	}
 
 	/*CRAFTMAN*/
@@ -755,9 +797,23 @@ body.home .span10 .content {
 	.btn {
 		padding: 4px 20px !important;
 	}
+	body.contact .span10 .content{
+		text-align: center;
+	}
 	body.contact .span10 {
-		background: #ffffff;
 		height: 768px;
+		width: 568px;
+	}
+	body.contact .send{
+		width: 115px;
+		margin: 0 auto;
+	}
+	body.contact .send button{
+		margin: 10px 0;
+	}
+	body.contact .goto{
+		width: 133px;
+		margin: 0 auto;
 	}
 	body.contact .span10 p {
 		color: #000000;
@@ -768,10 +824,12 @@ body.home .span10 .content {
 
 /*	iPhone 5 in portrait	*/
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
-
+body.contact .texto{
+	
+}
 	.container-fluid{
 		min-height: 569px;
-		background: #ffffff;
+		background: #53504a;
 	}
 	.carousel-caption h4 {
 		text-align: center;
@@ -786,6 +844,7 @@ body.home .span10 .content {
 	}
 	.menu_element .imagen{
 		float: left;
+		height: 166px;
 	}
 	.menu_element .imagen img{
 		height: 170px;
@@ -835,7 +894,7 @@ body.home .span10 .content {
 	}
 	body .span10 .content {
 		float: left;
-		background: #17375e;
+		background: #53504a;
 		color: #ffffff;
 		width: 93%;
 		min-height: 522px
@@ -888,6 +947,10 @@ body.home .span10 .content {
 		margin-left: 10px;
 	}
 
+	body.exclusividad .span10 .content .texto{
+		margin-top: 25px;
+	}
+
 	body.amenities .content .texto{
 		background: url("./../../img/amenities-iphone-portrait.jpg") no-repeat scroll 0 0 transparent;
 		margin-top: 25px;
@@ -909,8 +972,13 @@ body.home .span10 .content {
 
 	}
 	body.contact .texto{
-		margin-top: 100px;
+		margin: 0;
+	}
+
+	body.contact .texto{
+		/*margin-top: 100px;*/
 		text-align: center;
+		margin: 0;
 	}
 	body.contact .span10 .content .texto span{
 		text-align: center;
