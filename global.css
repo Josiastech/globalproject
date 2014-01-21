@@ -1,0 +1,132 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule,
+ * CSS declarations in global.css will apply site-wide. */
+body {
+	font-family: 'Glegoo', serif;
+	color: #000000;
+	background: #ffffff;
+}
+li {
+	list-style: none;
+}
+h2.block-title {
+	color: #3D6483;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+a, a:link, a:visited {
+	text-decoration: none;
+}
+#page {
+	text-align: justify;
+}
+#first-time {
+	display: none;
+}
+.submitted {
+	display: none;
+}
+.branding-data {
+	float: left;
+}
+.sf-menu.sf-style-default li, .sf-menu.sf-style-default.sf-navbar {
+	background: none;
+}
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+	color: #000000;
+	border-width: 0;
+}
+.sf-menu.sf-style-default li:hover, .sf-menu.sf-style-default li.sfHover, .sf-menu.sf-style-default a:focus, .sf-menu.sf-style-default a:hover, .sf-menu.sf-style-default a:active {
+	background: none;
+}
+.block-superfish-1 ul li {
+	background: none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+}
+.block-superfish-1 ul li:hover {
+	background: #1ab7ea !important;
+	color: #ffffff !important;
+}
+.block-superfish-1 ul li a {
+	font-family: 'Glegoo', serif;
+	color: #000000;
+	font-size: 10px;
+}
+.block-superfish-1 ul li a:hover {
+	color: #ffffff !important;
+}
+/*MOVIMIENTOS DEL MENU PRINCIPAL*/
+.block-superfish-1 ul li#menu-218-1:hover {
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+}
+.block-superfish-1 ul li#menu-626-1:hover {
+	-webkit-transform: rotate(13deg);
+	-moz-transform: rotate(13deg);
+	-o-transform: rotate(13deg);
+}
+.block-superfish-1 ul li#menu-627-1:hover {
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+}
+.block-superfish-1 ul li#menu-628-1:hover {
+	-webkit-transform: rotate(12deg);
+	-moz-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
+}
+.block-superfish-1 ul li#menu-629-1:hover {
+	-webkit-transform: rotate(-13deg);
+	-moz-transform: rotate(-13deg);
+	-o-transform: rotate(-13deg);
+}
+/*SLIDESHOW*/
+#flexslider_views_slideshow_main_slideshow-block ul {
+	min-height: 339px;
+}
+#flexslider_views_slideshow_main_slideshow-block ul li {
+
+}
+#flexslider_views_slideshow_main_slideshow-block ul li p {
+	padding: 0;
+	width: 100%;
+	background: none;
+	bottom: auto;
+}
+.view-proyectos .views-row {
+	float: left;
+	margin: 5px 0;
+}
+.view-proyectos .views-field-title {
+
+	float: left;
+}
+.view-proyectos .views-field-field-imagen-proyecto {
+
+	float: left;
+	margin: 0 10px 0 0;
+}
+.view-proyectos .views-field-body {
+
+	float: left;
+}
+
+#zone-footer {
+	text-align: center;
+}
+
+/*MOBILES GENERAL*/
+body.responsive-layout-mobile .branding-data {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px 0;
+}
+body.responsive-layout-mobile .branding-data .logo-img {
+	text-align: center;
+}
+body.responsive-layout-mobile .block-superfish {
+	float: left;
+}
